@@ -1,0 +1,14 @@
+Stage 3 - Minimize the full system without restraints
+&cntrl
+ ! Minimization control
+ imin = 1,
+ maxcyc = 10000, ncyc = 5000,
+
+ ! Periodic boundary and nonbonded setup
+ ntb = 1,
+ cut = 10.0,
+
+ ! Output control
+ ntpr = 100, ntwx = 100, ntwr = 100,
+ ntxo = 2, ioutfm = 1,
+&end

@@ -1,0 +1,19 @@
+Stage 1 - Relax solvent and ions with solute restraints
+&cntrl
+ ! Minimization control
+ imin = 1,
+ maxcyc = 10000, ncyc = 5000,
+
+ ! Periodic boundary and nonbonded setup
+ ntb = 1,
+ cut = 10.0,
+
+ ! Output control
+ ntpr = 100, ntwx = 100, ntwr = 100,
+ ntxo = 2, ioutfm = 1,
+
+ ! Positional restraints
+ ntr = 1,
+ restraint_wt = 50.0,
+ restraintmask = ":1-304",
+&end

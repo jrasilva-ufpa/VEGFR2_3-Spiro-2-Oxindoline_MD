@@ -1,0 +1,33 @@
+Stage 8 - Equilibrate under NPT with 5 kcal/mol/A^2 backbone and residue restraints
+&cntrl
+ ! Run control
+ imin = 0,
+ nstlim = 200000, dt = 0.001,
+
+ ! Restart behavior
+ irest = 1, ntx = 5, ntxo = 2,
+
+ ! Output control
+ ntpr = 5000, ntwx = 5000, ntwr = 5000, ntwe = 0,
+ ioutfm = 1, iwrap = 1,
+
+ ! Temperature control
+ temp0 = 310.0,
+ ntt = 3, gamma_ln = 2.0,
+ ig = -1,
+
+ ! Pressure control
+ ntb = 2, ntp = 1,
+ pres0 = 1.0,
+ barostat = 2, taup = 1.0, mcbarint = 100,
+
+ ! Integration and constraints
+ ntc = 2, ntf = 2, tol = 0.00001,
+ cut = 10.0,
+ nscm = 1000,
+
+ ! Positional restraints
+ ntr = 1,
+ restraint_wt = 5.0,
+ restraintmask = "(:1-303 & @CA,C,N,O) | :304",
+&end
