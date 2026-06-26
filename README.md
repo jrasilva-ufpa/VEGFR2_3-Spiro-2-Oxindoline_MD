@@ -19,9 +19,9 @@ The simulations do not establish intracellular target engagement or directly pre
 | System        | Ligand      |              Starting Structure | Independent Replicas | Aggregate Simulation Time |
 | ------------- | ----------- | ------------------------------: | -------------------: | ------------------------: |
 | `BAX`         | Sorafenib   | Crystal structure from PDB 4ASD |           3 × 250 ns |                    750 ns |
-| `compound_4`  | Compound 4  |            Docking-derived pose |           3 × 250 ns |                    750 ns |
-| `compound_5`  | Compound 5  |            Docking-derived pose |           3 × 250 ns |                    750 ns |
-| `compound_6g` | Compound 6g |            Docking-derived pose |           3 × 250 ns |                    750 ns |
+| `compound_6`  | comp-6      |            Docking-derived pose |           3 × 250 ns |                    750 ns |
+| `compound_7`  | comp-7      |            Docking-derived pose |           3 × 250 ns |                    750 ns |
+| `compound_8g` | comp-8g     |            Docking-derived pose |           3 × 250 ns |                    750 ns |
 
 ## Molecular Dynamics Protocol
 
