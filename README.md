@@ -6,7 +6,7 @@ This repository contains the computational workflow and processed data supportin
 
 > **Ligand-Based Design and Synthesis of Novel 3-Spiro-2-Oxindoline Derivatives as Potent VEGFR-2 Inhibitors with Antiproliferative Activity and Cell Cycle Arrest**
 
-The repository provides the files required to inspect and reproduce the computational analyses of VEGFR-2 in complex with the crystallographic reference inhibitor sorafenib **(BAX)** and the selected synthesized compounds **6**, **7**, and **8g**.
+The repository provides the files required to inspect and reproduce the computational analyses of VEGFR-2 in complex with the crystallographic reference inhibitor sorafenib **(BAX)** and the selected synthesized compounds **4**, **5**, and **6g**.
 
 ## Scope
 
@@ -19,9 +19,9 @@ The simulations do not establish intracellular target engagement or directly pre
 | System        | Ligand      |              Starting Structure | Independent Replicas | Aggregate Simulation Time |
 | ------------- | ----------- | ------------------------------: | -------------------: | ------------------------: |
 | `BAX`         | Sorafenib   | Crystal structure from PDB 4ASD |           3 × 250 ns |                    750 ns |
-| `compound_6`  | comp-6      |            Docking-derived pose |           3 × 250 ns |                    750 ns |
-| `compound_7`  | comp-7      |            Docking-derived pose |           3 × 250 ns |                    750 ns |
-| `compound_8g` | comp-8g     |            Docking-derived pose |           3 × 250 ns |                    750 ns |
+| `compound_4`  | comp-4      |            Docking-derived pose |           3 × 250 ns |                    750 ns |
+| `compound_5`  | comp-5      |            Docking-derived pose |           3 × 250 ns |                    750 ns |
+| `compound_6g` | comp-6g     |            Docking-derived pose |           3 × 250 ns |                    750 ns |
 
 ## Molecular Dynamics Protocol
 
