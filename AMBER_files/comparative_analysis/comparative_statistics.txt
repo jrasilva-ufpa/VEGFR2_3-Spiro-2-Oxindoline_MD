@@ -1,0 +1,281 @@
+======================================================================
+MULTI-SYSTEM COMPARATIVE ANALYSIS - STATISTICS
+======================================================================
+
+Analysis date: 2026-05-24 22:58:12
+Number of systems: 4
+Protein residues: 303
+Simulation time per replica: 250 ns
+Crystal offset: +814
+
+======================================================================
+SYSTEMS OVERVIEW
+======================================================================
+
+System 1: BAX
+  Label: BAX
+  Replicas: 3
+  Ligand residue: 304
+  Total simulation time: 750 ns
+
+System 2: E01
+  Label: comp-6
+  Replicas: 3
+  Ligand residue: 304
+  Total simulation time: 750 ns
+
+System 3: E02
+  Label: comp-7
+  Replicas: 3
+  Ligand residue: 304
+  Total simulation time: 750 ns
+
+System 4: E13
+  Label: comp-8g
+  Replicas: 3
+  Ligand residue: 304
+  Total simulation time: 750 ns
+
+======================================================================
+RMSD STATISTICS (Angstrom)
+======================================================================
+
+System 1: BAX
+  Replica 1:
+    Mean:      1.117 A
+    Std:       0.174 A
+    Min:       0.701 A
+    Max:       2.236 A
+  Replica 2:
+    Mean:      1.091 A
+    Std:       0.160 A
+    Min:       0.688 A
+    Max:       1.806 A
+  Replica 3:
+    Mean:      1.064 A
+    Std:       0.158 A
+    Min:       0.632 A
+    Max:       1.792 A
+  System Mean (across replicas):
+    Mean:      1.091 A
+    Std:       0.120 A
+
+System 2: comp-6
+  Replica 1:
+    Mean:      1.211 A
+    Std:       0.223 A
+    Min:       0.681 A
+    Max:       2.178 A
+  Replica 2:
+    Mean:      1.150 A
+    Std:       0.203 A
+    Min:       0.714 A
+    Max:       2.318 A
+  Replica 3:
+    Mean:      1.199 A
+    Std:       0.156 A
+    Min:       0.771 A
+    Max:       1.929 A
+  System Mean (across replicas):
+    Mean:      1.187 A
+    Std:       0.145 A
+
+System 3: comp-7
+  Replica 1:
+    Mean:      1.173 A
+    Std:       0.163 A
+    Min:       0.705 A
+    Max:       2.067 A
+  Replica 2:
+    Mean:      1.084 A
+    Std:       0.171 A
+    Min:       0.648 A
+    Max:       1.890 A
+  Replica 3:
+    Mean:      1.203 A
+    Std:       0.243 A
+    Min:       0.712 A
+    Max:       2.310 A
+  System Mean (across replicas):
+    Mean:      1.153 A
+    Std:       0.138 A
+
+System 4: comp-8g
+  Replica 1:
+    Mean:      1.132 A
+    Std:       0.205 A
+    Min:       0.628 A
+    Max:       2.142 A
+  Replica 2:
+    Mean:      1.117 A
+    Std:       0.179 A
+    Min:       0.684 A
+    Max:       1.942 A
+  Replica 3:
+    Mean:      1.122 A
+    Std:       0.257 A
+    Min:       0.694 A
+    Max:       2.490 A
+  System Mean (across replicas):
+    Mean:      1.123 A
+    Std:       0.130 A
+
+======================================================================
+RMSD COMPARISON TABLE
+======================================================================
+
+System                         Mean RMSD (A)   Std Dev (A)    
+----------------------------------------------------------------------
+BAX                            1.091           0.120          
+comp-6                         1.187           0.145          
+comp-7                         1.153           0.138          
+comp-8g                        1.123           0.130          
+
+======================================================================
+RMSF STATISTICS (Angstrom)
+======================================================================
+
+System 1: BAX
+  Replica 1:
+    Mean:      0.921 A
+    Std:       0.598 A
+    Min:       0.399 A
+    Max:       4.521 A
+  Replica 2:
+    Mean:      0.933 A
+    Std:       0.520 A
+    Min:       0.403 A
+    Max:       3.195 A
+  Replica 3:
+    Mean:      0.897 A
+    Std:       0.547 A
+    Min:       0.378 A
+    Max:       3.597 A
+  System Mean (across replicas):
+    Mean:      0.917 A
+    Std:       0.057 A
+
+System 2: comp-6
+  Replica 1:
+    Mean:      0.950 A
+    Std:       0.634 A
+    Min:       0.399 A
+    Max:       4.984 A
+  Replica 2:
+    Mean:      0.918 A
+    Std:       0.641 A
+    Min:       0.392 A
+    Max:       4.454 A
+  Replica 3:
+    Mean:      0.931 A
+    Std:       0.491 A
+    Min:       0.406 A
+    Max:       3.257 A
+  System Mean (across replicas):
+    Mean:      0.933 A
+    Std:       0.070 A
+
+System 3: comp-7
+  Replica 1:
+    Mean:      0.897 A
+    Std:       0.667 A
+    Min:       0.382 A
+    Max:       6.330 A
+  Replica 2:
+    Mean:      0.914 A
+    Std:       0.598 A
+    Min:       0.386 A
+    Max:       4.448 A
+  Replica 3:
+    Mean:      0.929 A
+    Std:       0.708 A
+    Min:       0.396 A
+    Max:       6.233 A
+  System Mean (across replicas):
+    Mean:      0.913 A
+    Std:       0.073 A
+
+System 4: comp-8g
+  Replica 1:
+    Mean:      0.938 A
+    Std:       0.613 A
+    Min:       0.395 A
+    Max:       5.133 A
+  Replica 2:
+    Mean:      0.899 A
+    Std:       0.636 A
+    Min:       0.392 A
+    Max:       4.718 A
+  Replica 3:
+    Mean:      0.894 A
+    Std:       0.651 A
+    Min:       0.389 A
+    Max:       4.675 A
+  System Mean (across replicas):
+    Mean:      0.911 A
+    Std:       0.077 A
+
+======================================================================
+RMSF COMPARISON TABLE
+======================================================================
+
+System                         Mean RMSF (A)   Std Dev (A)    
+----------------------------------------------------------------------
+BAX                            0.917           0.057          
+comp-6                         0.933           0.070          
+comp-7                         0.913           0.073          
+comp-8g                        0.911           0.077          
+
+======================================================================
+HIGHLY FLEXIBLE REGIONS PER SYSTEM (top 10%)
+======================================================================
+
+System: BAX
+  Threshold: RMSF > 1.46 A
+    Residues 815-816 (2 residues)
+    Residues 818-819 (2 residues)
+    Residues 857-860 (4 residues)
+    Residue 873
+    Residues 938-948 (11 residues)
+    Residues 1004-1005 (2 residues)
+    Residues 1012-1015 (4 residues)
+    Residue 1058
+    Residue 1079
+    Residues 1115-1117 (3 residues)
+
+System: comp-6
+  Threshold: RMSF > 1.47 A
+    Residues 815-819 (5 residues)
+    Residue 824
+    Residues 857-860 (4 residues)
+    Residue 873
+    Residues 937-948 (12 residues)
+    Residues 1012-1015 (4 residues)
+    Residue 1058
+    Residue 1079
+    Residues 1116-1117 (2 residues)
+
+System: comp-7
+  Threshold: RMSF > 1.41 A
+    Residues 815-821 (7 residues)
+    Residues 857-860 (4 residues)
+    Residue 873
+    Residues 938-948 (11 residues)
+    Residues 1012-1015 (4 residues)
+    Residue 1058
+    Residue 1063
+    Residues 1116-1117 (2 residues)
+
+System: comp-8g
+  Threshold: RMSF > 1.42 A
+    Residues 815-819 (5 residues)
+    Residues 844-845 (2 residues)
+    Residues 858-860 (3 residues)
+    Residue 873
+    Residue 909
+    Residues 938-948 (11 residues)
+    Residues 1012-1015 (4 residues)
+    Residue 1058
+    Residues 1115-1117 (3 residues)
+
+======================================================================
