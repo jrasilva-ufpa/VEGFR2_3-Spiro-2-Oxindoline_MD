@@ -6,7 +6,7 @@ This repository contains the computational workflow and processed data supportin
 
 > **Ligand-Based Design and Synthesis of Novel 3-Spiro-2-Oxindoline Derivatives as Potent VEGFR-2 Inhibitors with Antiproliferative Activity and Cell Cycle Arrest**
 
-The repository provides the files required to inspect and reproduce the computational analyses of VEGFR-2 in complex with the crystallographic reference inhibitor sorafenib and the selected synthesized compounds **4**, **5**, and **6g**.
+The repository provides the files required to inspect and reproduce the computational analyses of VEGFR-2 in complex with the crystallographic reference inhibitor sorafenib **(BAX)** and the selected synthesized compounds **6**, **7**, and **8g**.
 
 ## Scope
 
@@ -43,7 +43,7 @@ Each system underwent four minimization stages, gradual heating from 100 to 310 
 
 ## Data Availability
 
-This repository contains AMBER files and processed data. Large raw trajectories may not be stored directly in the GitHub repository because of file-size limitations. Wh
+This repository contains AMBER files and processed data. Large raw trajectories may not be stored directly in the GitHub repository because of file-size limitations.
 
 ## Software
 
@@ -60,15 +60,7 @@ This repository contains AMBER files and processed data. Large raw trajectories 
 
 Please cite the associated manuscript when using these data or workflows:
 
-> Sweify, I. R., Abdel El-wahab, H. A. A., Qayed, W. S., Hosny, Y., El-Sayed, W. M., Silva, J. R. A., and Aboul-Fadl, T. *Ligand-Based Design and Synthesis of Novel 3-Spiro-2-Oxindoline Derivatives as Potent VEGFR-2 Inhibitors with Antiproliferative Activity and Cell Cycle Arrest.* [Journal information to be added after publication].
-
-Please also cite the archived repository version:
-
-> Silva, J. R. A. et al. Reproducible Molecular Dynamics and MM/GBSA Analysis of VEGFR-2 Complexes with Novel 3-Spiro-2-Oxindoline Derivatives. Zenodo. [DOI].
-
-## License
-
-This repository is distributed under the [LICENSE NAME] license. Please consult the `LICENSE` file for details.
+> Sweify, I. R., Abdel El-wahab, H. A. A., Qayed, W. S., Hosny, Y., El-Sayed, W. M., Silva, J. R. A. and Aboul-Fadl, T. *Ligand-Based Design and Synthesis of Novel 3-Spiro-2-Oxindoline Derivatives as Potent VEGFR-2 Inhibitors with Antiproliferative Activity and Cell Cycle Arrest.* [Journal information to be added after publication].
 
 ## Contact
 
@@ -76,4 +68,4 @@ This repository is distributed under the [LICENSE NAME] license. Please consult 
 Laboratory of Computer Modeling of Molecular Biosystems (CompMBio)
 Federal University of Pará, Belém, Pará, Brazil
 
-For questions regarding the MD simulations, MM/GBSA analyses, or repository contents, please contact: [email address].
+For questions regarding the MD simulations, MM/GBSA analyses, or repository contents, please contact: [rogerio@ufpa.br].
